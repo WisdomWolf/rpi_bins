@@ -7,4 +7,4 @@ confdir=/usr/local/share/fish/vendor_conf.d
 Name: fish
 Description: fish, the friendly interactive shell
 URL: http://fishshell.com/
-Version: 8c63ac8-dirty
+Version: 5b93cd4-dirty
