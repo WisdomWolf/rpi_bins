@@ -1,0 +1,33 @@
+Testing -V
+$foo: (1)
+1: 'local foo'
+$bar: (5)
+1: 'one'
+2: 'two    2'
+3: '	'
+4: ''
+5: '3'
+$baz: (0)
+Testing -V with changed variables
+$foo: (1)
+1: 'local foo'
+$bar: (5)
+1: 'one'
+2: 'two    2'
+3: '	'
+4: ''
+5: '3'
+$baz: (0)
+Function name1 found
+Function name2 not found as expected
+Function name3 found
+Function name4 not found as expected
+Checking that the copied functions are identical other than the name
+1c1
+< function name1 --argument arg1 arg2
+---
+> function name1a --argument arg1 arg2
+1c1
+< function name3 --argument arg1 arg2
+---
+> function name3a --argument arg1 arg2

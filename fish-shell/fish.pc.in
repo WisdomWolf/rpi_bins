@@ -1,0 +1,10 @@
+prefix=@prefix@
+datadir=@datadir@
+completionsdir=@extra_completionsdir@
+functionsdir=@extra_functionsdir@
+confdir=@extra_confdir@
+
+Name: fish
+Description: fish, the friendly interactive shell
+URL: http://fishshell.com/
+Version: @fish_build_version@
